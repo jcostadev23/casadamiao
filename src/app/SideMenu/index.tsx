@@ -2,7 +2,7 @@ import { BASE_URL } from "../components/utils";
 
 const SideMenu = () => {
   return (
-    <div className="self-start py-6 px-4 w-full sm:w-1/4 bg-blue-50">
+    <div className="self-start py-6 px-4 w-full md:w-1/4 bg-blue-50">
       <h2 className="text-xl mb-6 font-semibold">Sobre Nós</h2>
       <div className="flex flex-col gap-4">
         <a
