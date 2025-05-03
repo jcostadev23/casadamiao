@@ -2,18 +2,18 @@ import { BASE_URL } from "../components/utils";
 
 const SideMenu = () => {
   return (
-    <div className="self-start py-6 px-4 min-w-[330px] bg-blue-50">
+    <div className="self-start py-6 px-4 w-full sm:w-1/4 bg-blue-50">
       <h2 className="text-xl mb-6 font-semibold">Sobre Nós</h2>
       <div className="flex flex-col gap-4">
         <a
-          href={`${BASE_URL}2020/04/04/bem-vindo/`}
+          href={`${BASE_URL}casadamiao/`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <span className="font-semibold text-blue-900 ">Casa Damião</span>
         </a>
         <a
-          href={`${BASE_URL}2020/04/04/bem-vindo/`}
+          href={`${BASE_URL}casadamiao/`}
           target="_blank"
           rel="noopener noreferrer"
         >
