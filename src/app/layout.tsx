@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
+import "./globals.css";
 import SideMenu from "./SideMenu";
 
 const geistSans = Geist({
@@ -31,13 +32,12 @@ export default function RootLayout({
       >
         <div>
           <Header />
-          <div className="flex flex-col min-h-screen p-8 pb-20 gap-16 sm:p-20 sm:flex-row font-[family-name:var(--font-geist-sans)]">
-            <main className="flex flex-col flex-1 gap-[32px] row-start-2 w-full sm:w-3/4 sm:items-start">
-              {children}
-            </main>
+          <div className="flex flex-col gap-20 sm:p-20 md:flex-row font-[family-name:var(--font-geist-sans)]">
+            <main className="flex flex-col w-full sm:w-3/4">{children}</main>
             <SideMenu />
           </div>
         </div>
+        <Footer />
       </body>
     </html>
   );

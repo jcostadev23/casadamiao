@@ -1,6 +1,6 @@
 const MainVidio = () => {
   return (
-    <div className="w-full aspect-video">
+    <div className="w-full aspect-video mb-10">
       <figure className="w-full aspect-video">
         <iframe
           className="w-full h-full"
