@@ -4,7 +4,6 @@ import CasaDamiaoImage from "../images/CasaDaniaoLogo";
 const Header = () => {
   return (
     <header>
-      <div className="w-full h-3 bg-blue-900"></div>
       <div className="flex justify-between">
         <CasaDamiaoImage />
         <nav className="flex gap-10 mr-20">
