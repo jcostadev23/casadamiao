@@ -43,3 +43,39 @@ body {
     animation: heartbeat 2s ease-in-out infinite;
   }
 }
+
+@layer components {
+  .custom-markdown p {
+    @apply text-lg first:text-4xl first:font-bold;
+  }
+
+  .custom-markdown h1 {
+    @apply text-4xl font-bold;
+  }
+
+  .custom-markdown h2 {
+    @apply text-3xl font-bold;
+  }
+
+  .custom-markdown h4 {
+    @apply text-lg font-bold;
+  }
+
+  .custom-markdown ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+
+  .custom-markdown li {
+    margin-bottom: 0.5rem;
+  }
+
+  .custom-markdown a[href*="unicef.pt"] {
+    color: #16a34a;
+  }
+
+  .custom-helper-page h4,
+  .custom-helper-page a {
+    color: #16a34a;
+  }
+}

@@ -13,14 +13,14 @@ const SideMenu = () => {
           <span className="font-semibold text-blue-900 ">Casa Damião</span>
         </a>
         <a
-          href={`${BASE_URL}casadamiao/`}
+          href={`${BASE_URL}quem-somos/`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <span className="font-semibold text-blue-900 ">Quem Somos</span>
         </a>
         <a
-          href={`${BASE_URL}2020/04/04/bem-vindo/`}
+          href={`${BASE_URL}visao-missao-e-valores/`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -36,14 +36,14 @@ const SideMenu = () => {
           <span className="font-semibold text-blue-900 ">Parceiros</span>
         </a>
         <a
-          href={`${BASE_URL}2020/04/04/bem-vindo/`}
+          href={`${BASE_URL}ajudar/`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <span className="font-semibold text-blue-900 ">Como Ajudar</span>
         </a>
         <a
-          href={`${BASE_URL}2020/04/04/bem-vindo/`}
+          href={`${BASE_URL}encomendas-de-bolos/`}
           target="_blank"
           rel="noopener noreferrer"
         >

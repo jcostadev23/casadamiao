@@ -2,7 +2,7 @@ import Info from "./info.mdx";
 
 const MainInfo = () => {
   return (
-    <div className="flex flex-col gap-[20px]">
+    <div className="custom-markdown flex flex-col gap-[20px] items-center">
       <Info />
     </div>
   );

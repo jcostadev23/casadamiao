@@ -30,10 +30,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div>
+        <div className="w-full h-3 bg-blue-900"></div>
+        <div className="p-20 items-center justify-center">
           <Header />
           <div className="flex flex-col gap-20 sm:p-20 md:flex-row font-[family-name:var(--font-geist-sans)]">
-            <main className="flex flex-col w-full sm:w-3/4">{children}</main>
+            <main className="flex flex-col w-full">{children}</main>
             <SideMenu />
           </div>
         </div>
