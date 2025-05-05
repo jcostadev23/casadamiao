@@ -20,7 +20,7 @@ const SideMenu = () => {
           <span className="font-semibold text-blue-900 ">Quem Somos</span>
         </a>
         <a
-          href={`${BASE_URL}2020/04/04/bem-vindo/`}
+          href={`${BASE_URL}visao-missao-e-valores/`}
           target="_blank"
           rel="noopener noreferrer"
         >
