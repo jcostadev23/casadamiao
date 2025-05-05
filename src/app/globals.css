@@ -73,4 +73,9 @@ body {
   .custom-markdown a[href*="unicef.pt"] {
     color: #16a34a;
   }
+
+  .custom-helper-page h4,
+  a {
+    color: #16a34a;
+  }
 }
