@@ -43,7 +43,7 @@ const SideMenu = () => {
           <span className="font-semibold text-blue-900 ">Como Ajudar</span>
         </a>
         <a
-          href={`${BASE_URL}2020/04/04/bem-vindo/`}
+          href={`${BASE_URL}encomendas-de-bolos/`}
           target="_blank"
           rel="noopener noreferrer"
         >
