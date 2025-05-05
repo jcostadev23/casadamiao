@@ -43,3 +43,13 @@ body {
     animation: heartbeat 2s ease-in-out infinite;
   }
 }
+
+@layer components {
+  .custom-markdown p {
+    @apply text-lg first:text-4xl first:font-bold;
+  }
+
+  .custom-markdown h2 {
+    @apply text-3xl font-bold mb-4;
+  }
+}
