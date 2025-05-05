@@ -13,7 +13,7 @@ const SideMenu = () => {
           <span className="font-semibold text-blue-900 ">Casa Damião</span>
         </a>
         <a
-          href={`${BASE_URL}casadamiao/`}
+          href={`${BASE_URL}quem-somos/`}
           target="_blank"
           rel="noopener noreferrer"
         >
