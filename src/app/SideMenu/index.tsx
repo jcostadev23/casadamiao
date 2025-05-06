@@ -37,10 +37,10 @@ const SideMenu = () => {
       <div className="mt-10">
         <h2 className="text-xl mb-6 font-semibold">A Casa</h2>
         <div className="flex flex-col gap-4">
-          <a href={`${BASE_URL}2020/04/04/bem-vindo/`}>
+          <a href={`${BASE_URL}historia-2/`}>
             <span className="font-semibold text-blue-900 ">História</span>
           </a>
-          <a href={`${BASE_URL}2020/04/04/bem-vindo/`}>
+          <a href={`${BASE_URL}quem-foi-damiao/`}>
             <span className="font-semibold text-blue-900 ">
               Quem foi Damião
             </span>
