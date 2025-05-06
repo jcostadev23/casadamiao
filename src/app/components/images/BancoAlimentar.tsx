@@ -5,9 +5,9 @@ const BancoAlimentarImage = () => {
   return (
     <Image
       src={bancoAlimentarImage}
-      width={350}
-      height={250}
-      alt="camisolas e livros"
+      width={200}
+      height={200}
+      alt="Banco alimentar logo"
     />
   );
 };

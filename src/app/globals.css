@@ -78,4 +78,20 @@ body {
   .custom-helper-page a {
     color: #16a34a;
   }
+
+  .custom-markdown-margin ul li {
+    margin-bottom: 1.5rem;
+  }
+
+  .custom-markdown a {
+    color: #123b86;
+  }
+
+  .custom-markdown a:hover {
+    color: #316cd8;
+  }
+
+  .custom-markdown-image img {
+    margin: 10px auto;
+  }
 }

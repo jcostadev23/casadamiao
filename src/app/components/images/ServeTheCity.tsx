@@ -7,7 +7,7 @@ const ServeTheCityImage = () => {
       src={serveTheCityImage}
       width={300}
       height={90}
-      alt="camisolas e livros"
+      alt="Serve the city logo"
     />
   );
 };

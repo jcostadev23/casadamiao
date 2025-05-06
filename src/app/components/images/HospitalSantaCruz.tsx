@@ -7,7 +7,7 @@ const HospitalSantaCruzImage = () => {
       src={hospitalSantaCruzImage}
       width={300}
       height={90}
-      alt="camisolas e livros"
+      alt="Hospital Santa Cruz logo"
     />
   );
 };
