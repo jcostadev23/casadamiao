@@ -30,7 +30,7 @@ const SideMenu = () => {
             Documentos Constitutivos
           </span>
         </a>
-        <a href={`${BASE_URL}2020/04/04/bem-vindo/`}>
+        <a href={`${BASE_URL}contatos/`}>
           <span className="font-semibold text-blue-900 ">Contactos</span>
         </a>
       </div>
