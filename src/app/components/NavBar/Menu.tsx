@@ -19,7 +19,7 @@ const Menu = () => {
         </a>
         <a
           className="py-2 border-b"
-          href={`${BASE_URL}acasadamiao/`}
+          href={`${BASE_URL}a-casa-damiao/`}
           target="_blank"
           rel="noopener noreferrer"
         >
