@@ -46,15 +46,15 @@ body {
 
 @layer components {
   .custom-markdown p {
-    @apply text-lg first:text-4xl first:font-bold;
+    @apply text-lg first:text-3xl first:font-bold;
   }
 
   .custom-markdown h1 {
-    @apply text-4xl font-bold;
+    @apply text-2xl font-bold;
   }
 
   .custom-markdown h2 {
-    @apply text-3xl font-bold;
+    @apply text-lg font-bold;
   }
 
   .custom-markdown h4 {
