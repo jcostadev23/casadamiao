@@ -9,7 +9,7 @@ const CasaDamiaoImage = () => {
       height={400}
       sizes="100vw"
       alt="crianças a brincar"
-      style={{ width: "80%", height: "auto" }}
+      style={{ width: "100%", height: "auto" }}
     />
   );
 };
