@@ -1,4 +1,4 @@
-import MainMenu from "../components/NavBar/Main";
+import MainMenu from "../NavBar/Main";
 
 const SideMenu = () => {
   return (
