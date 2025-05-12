@@ -1,5 +1,5 @@
 import Image from "next/image";
-import serveTheCityImage from "../../../../public/servethecity.jpg";
+import serveTheCityImage from "../../../../public/images/servethecity.jpg";
 
 const ServeTheCityImage = () => {
   return (

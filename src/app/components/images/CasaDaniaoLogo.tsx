@@ -1,5 +1,5 @@
 import Image from "next/image";
-import casaDamiaoLogo from "../../../../public/logo-casa-damicao.png";
+import casaDamiaoLogo from "../../../../public/images/logo-casa-damicao.png";
 
 const CasaDamiaoImage = () => {
   return (
