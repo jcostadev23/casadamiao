@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hospitalSantaCruzImage from "../../../../public/logo-hsc.jpg";
+import hospitalSantaCruzImage from "../../../../public/images/logo-hsc.jpg";
 
 const HospitalSantaCruzImage = () => {
   return (

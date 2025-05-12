@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bancoAlimentarImage from "../../../../public/banco-alimentar-contra-a-fome-logo.gif";
+import bancoAlimentarImage from "../../../../public/images/banco-alimentar-contra-a-fome-logo.gif";
 
 const BancoAlimentarImage = () => {
   return (

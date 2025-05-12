@@ -1,4 +1,4 @@
-import { BASE_URL } from "../utils";
+import { BASE_URL } from "../../utils";
 
 type Props = {
   onNavBar: boolean;

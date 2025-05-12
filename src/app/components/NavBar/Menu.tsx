@@ -1,5 +1,5 @@
 import MainMenu from "./Main";
-import { BASE_URL, DOAR_URL } from "../utils";
+import { BASE_URL, DOAR_URL } from "../../utils";
 
 const Menu = () => {
   return (

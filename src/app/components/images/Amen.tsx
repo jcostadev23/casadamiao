@@ -1,5 +1,5 @@
 import Image from "next/image";
-import amenImage from "../../../../public/amen-300x90.png";
+import amenImage from "../../../../public/images/amen-300x90.png";
 
 const AmenImage = () => {
   return (

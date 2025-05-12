@@ -1,5 +1,5 @@
 import Image from "next/image";
-import florDeLisImage from "../../../../public/flor-de-lis.png";
+import florDeLisImage from "../../../../public/images/flor-de-lis.png";
 
 const FlorDeLisImage = () => {
   return (
