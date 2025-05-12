@@ -110,54 +110,6 @@ a[href*="unicef.pt"] {
   color: #16a34a;
 }
 
-@layer components {
-  .custom-markdown p {
-    @apply text-lg first:text-3xl first:font-bold;
-  }
-
-  .custom-markdown h2 {
-    @apply text-lg font-bold;
-  }
-
-  .custom-markdown h4 {
-    @apply text-lg font-bold;
-  }
-
-  .custom-markdown ul {
-    list-style: disc;
-    padding-left: 1.5rem;
-  }
-
-  .custom-markdown li {
-    margin-bottom: 0.5rem;
-  }
-
-  .custom-markdown a[href*="unicef.pt"] {
-    color: #16a34a;
-  }
-
-  .custom-helper-page h4,
-  .custom-helper-page a {
-    color: #16a34a;
-  }
-
-  .custom-markdown-margin ul li {
-    margin-bottom: 1.5rem;
-  }
-
-  .custom-markdown a {
-    color: #123b86;
-  }
-
-  .custom-markdown a:hover {
-    color: #316cd8;
-  }
-
-  .custom-markdown-image img {
-    margin: 10px auto;
-  }
-}
-
 .custom-nav a {
   font-weight: 600;
   padding-bottom: 10px;
