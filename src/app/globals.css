@@ -25,6 +25,68 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a span {
+  font-weight: 600;
+}
+
+a span:hover {
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: x-large;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: large;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: large;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4 a {
+  color: #123b86;
+}
+
+h4 a:hover {
+  color: #316cd8;
+}
+
+p {
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+img {
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 @layer utilities {
   @keyframes heartbeat {
     0%,
@@ -44,54 +106,12 @@ body {
   }
 }
 
-@layer components {
-  .custom-markdown p {
-    @apply text-lg first:text-3xl first:font-bold;
-  }
+a[href*="unicef.pt"] {
+  color: #16a34a;
+}
 
-  .custom-markdown h1 {
-    @apply text-2xl font-bold;
-  }
-
-  .custom-markdown h2 {
-    @apply text-lg font-bold;
-  }
-
-  .custom-markdown h4 {
-    @apply text-lg font-bold;
-  }
-
-  .custom-markdown ul {
-    list-style: disc;
-    padding-left: 1.5rem;
-  }
-
-  .custom-markdown li {
-    margin-bottom: 0.5rem;
-  }
-
-  .custom-markdown a[href*="unicef.pt"] {
-    color: #16a34a;
-  }
-
-  .custom-helper-page h4,
-  .custom-helper-page a {
-    color: #16a34a;
-  }
-
-  .custom-markdown-margin ul li {
-    margin-bottom: 1.5rem;
-  }
-
-  .custom-markdown a {
-    color: #123b86;
-  }
-
-  .custom-markdown a:hover {
-    color: #316cd8;
-  }
-
-  .custom-markdown-image img {
-    margin: 10px auto;
-  }
+.custom-nav a {
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
 }
