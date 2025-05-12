@@ -1,2 +1,2 @@
-export const BASE_URL = "http://localhost:3000/";
-export const DOAR_URL = "https://doar.casadamiao.pt/";
+export const BASE_URL = process.env.BASE_URL;
+export const DOAR_URL = process.env.DOAR_URL;
