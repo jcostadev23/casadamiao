@@ -29,7 +29,7 @@ const MainMenu: React.FC<Props> = ({ onNavBar }) => {
       <a href={`${BASE_URL}ajudar/`}>
         <span className={className}>Como Ajudar</span>
       </a>
-      <a href={`${BASE_URL}encomendas-de-bolos/`}>
+      <a href={`${BASE_URL}pack-damiao/`}>
         <span className={className}>Pack Damião</span>
       </a>
       <a href={`${BASE_URL}documentos-constitutivos/`}>
