@@ -59,11 +59,13 @@ h4 {
   margin-bottom: 10px;
 }
 
-h4 a {
+h4,
+ul a {
   color: #123b86;
 }
 
-h4 a:hover {
+h4,
+ul a:hover {
   color: #316cd8;
 }
 
