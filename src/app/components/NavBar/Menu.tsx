@@ -8,26 +8,14 @@ const Menu = () => {
         <a className="flex" href={DOAR_URL} target="_blank">
           <span className="animate-heartbeat">{"\u2764\uFE0F"} DOAR</span>
         </a>
-        <a
-          href={`${BASE_URL}a-casa-damiao/`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={`${BASE_URL}a-casa-damiao/`} rel="noopener noreferrer">
           <span>BEM-VINDO</span>
         </a>
-        <a
-          href={`${BASE_URL}a-casa-damiao/`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={`${BASE_URL}a-casa-damiao/`} rel="noopener noreferrer">
           <span>SOBRE NÓS</span>
         </a>
         <MainMenu onNavBar={true} />
-        <a
-          href={`${BASE_URL}acasadamiao/`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={`${BASE_URL}acasadamiao/`} rel="noopener noreferrer">
           <span>CONTATOS</span>
         </a>
       </nav>
