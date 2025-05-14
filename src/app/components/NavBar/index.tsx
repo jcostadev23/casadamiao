@@ -1,18 +1,34 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CasaDamiaoImage from "../images/CasaDaniaoLogo";
 import MenuIcon from "./Icon";
-import Nav from "./Nav";
 import Menu from "./Menu";
+import Nav from "./Nav";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <header className="mb-20 text-sm">
-      <div className="flex flex-col justify-between items-center gap-4 mb-10 md:flex-row sm:flex-col">
-        <CasaDamiaoImage />
+    <header
+      className={`mb-20 text-sm px-4 ${
+        scrolled
+          ? "text-xs shadow-sm sticky top-0 z-10 transition-all duration-300 bg-white"
+          : "text-sm"
+      }`}
+    >
+      <div className="flex flex-col justify-between px-8 items-center gap-4 mb-10 md:flex-row sm:flex-col">
+        <CasaDamiaoImage scrolled={scrolled} />
         <div className="flex-1"></div>
         <Nav />
         <button

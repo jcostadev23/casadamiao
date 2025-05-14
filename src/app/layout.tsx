@@ -31,8 +31,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="w-full h-3 bg-blue-900"></div>
+        <NavBar />
         <div className="p-10 items-center justify-center md:px-20 lg:px-40">
-          <NavBar />
           <div className="flex flex-col gap-20 md:flex-row font-[family-name:var(--font-geist-sans)]">
             <main className="flex flex-col w-full">{children}</main>
             <SideMenu />
