@@ -21,9 +21,9 @@ const NavBar = () => {
 
   return (
     <header
-      className={`mb-20 text-sm px-4 ${
+      className={`mb-10 text-sm px-4 bg-menu-background text-foreground ${
         scrolled
-          ? "text-xs shadow-sm sticky top-0 z-10 transition-all duration-300 bg-white"
+          ? "text-xs shadow-sm sticky top-0 z-10 transition-all duration-300"
           : "text-sm"
       }`}
     >
