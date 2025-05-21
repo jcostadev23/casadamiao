@@ -6,7 +6,7 @@ type Props = {
 };
 
 const CasaDamiaoImage: React.FC<Props> = ({ scrolled }) => {
-  const size = scrolled ? 150 : 250;
+  const size = scrolled ? 120 : 220;
   return (
     <Image
       src={casaDamiaoLogo}
