@@ -34,7 +34,9 @@ export default function RootLayout({
         <NavBar />
         <div className="w-full max-w-[1400px] mx-auto justify-self-center p-10 items-center md:px-20">
           <div className="flex flex-col gap-20 md:flex-row font-[family-name:var(--font-geist-sans)]">
-            <main className="flex flex-col w-full">{children}</main>
+            <main className="flex flex-col w-full text-justify">
+              {children}
+            </main>
             <SideMenu />
           </div>
         </div>
