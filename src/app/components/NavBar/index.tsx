@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import CasaDamiaoImage from "../images/CasaDaniaoLogo";
 import MenuIcon from "./Icon";
 import Menu from "./Menu";
@@ -10,11 +10,11 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header
-      className="mb-6 text-sm bg-menu-background text-foreground"
-    >
-      <div className="flex flex-col justify-between px-4 items-center gap-2 md:flex-row sm:flex-col">
-        <CasaDamiaoImage />
+    <header className="mb-6 text-sm bg-menu-background text-foreground justify-self-center w-full">
+      <div className="flex flex-col justify-between px-4 items-center gap-2 md:flex-row sm:flex-col w-full max-w-[1400px] mx-auto">
+        <a href="/">
+          <CasaDamiaoImage />
+        </a>
         <div className="flex-1"></div>
         <Nav />
         <button

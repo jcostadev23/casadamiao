@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <div className="w-full h-3 bg-blue-900"></div>
         <NavBar />
-        <div className="p-10 items-center justify-center md:px-20 lg:px-40">
+        <div className="w-full max-w-[1400px] mx-auto justify-self-center p-10 items-center md:px-20">
           <div className="flex flex-col gap-20 md:flex-row font-[family-name:var(--font-geist-sans)]">
             <main className="flex flex-col w-full">{children}</main>
             <SideMenu />
