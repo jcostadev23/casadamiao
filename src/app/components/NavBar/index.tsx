@@ -31,7 +31,7 @@ const NavBar = () => {
     <header
       className={`mb-6 text-sm bg-menu-background text-foreground ${
         scrolled
-          ? "text-xs shadow-sm sticky top-0 z-10 transition-all duration-300"
+          ? "text-xs"
           : "text-sm"
       }`}
     >
