@@ -1,17 +1,12 @@
 import Image from "next/image";
 import casaDamiaoLogo from "../../../../public/images/logo-casa-damicao.png";
 
-type Props = {
-  scrolled: boolean;
-};
-
-const CasaDamiaoImage: React.FC<Props> = ({ scrolled }) => {
-  const size = scrolled ? 120 : 220;
+const CasaDamiaoImage = () => {
   return (
     <Image
       src={casaDamiaoLogo}
-      width={size}
-      height={size}
+      width={220}
+      height={220}
       alt="crianças a brincar"
     />
   );
