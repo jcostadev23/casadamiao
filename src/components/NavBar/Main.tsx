@@ -1,5 +1,3 @@
-import { BASE_URL } from "../../utils";
-
 type Props = {
   onNavBar: boolean;
 };
@@ -14,36 +12,36 @@ const MainMenu: React.FC<Props> = ({ onNavBar }) => {
         onNavBar ? "custom-nav flex flex-col gap-4" : "flex flex-col gap-4"
       }
     >
-      <a href={`${BASE_URL}casadamiao/`}>
+      <a href={"/casadamiao/"}>
         <span className={className}>Casa Damião</span>
       </a>
-      <a href={`${BASE_URL}quem-somos/`}>
+      <a href={"/quem-somos/"}>
         <span className={className}>Quem Somos</span>
       </a>
-      <a href={`${BASE_URL}visao-missao-e-valores/`}>
+      <a href={"/visao-missao-e-valores/"}>
         <span className={className}>Visão, Missão e Valores</span>
       </a>
-      <a href={`${BASE_URL}parceiros/`}>
+      <a href={"/parceiros/"}>
         <span className={className}>Parceiros</span>
       </a>
-      <a href={`${BASE_URL}ajudar/`}>
+      <a href={"/ajudar/"}>
         <span className={className}>Como Ajudar</span>
       </a>
-      <a href={`${BASE_URL}pack-damiao/`}>
+      <a href={"/pack-damiao/"}>
         <span className={className}>Pack Damião</span>
       </a>
-      <a href={`${BASE_URL}documentos-constitutivos/`}>
+      <a href={"/documentos-constitutivos/"}>
         <span className={className}>Documentos Constitutivos</span>
       </a>
-      <a href={`${BASE_URL}contatos/`}>
+      <a href={"/contatos/"}>
         <span className={className}>Contactos</span>
       </a>
       {onNavBar ? (
         <>
-          <a href={`${BASE_URL}historia-2/`}>
+          <a href={"/historia-2/"}>
             <span className={className}>História</span>
           </a>
-          <a href={`${BASE_URL}quem-foi-damiao/`}>
+          <a href={"/quem-foi-damiao/"}>
             <span className={className}>Quem foi Damião</span>
           </a>
         </>
@@ -51,12 +49,12 @@ const MainMenu: React.FC<Props> = ({ onNavBar }) => {
         <div className="mt-10">
           <h2 className="text-xl mb-6 font-semibold">A Casa</h2>
           <div className="flex flex-col gap-4">
-            <a href={`${BASE_URL}historia-2/`}>
+            <a href={"/historia-2/"}>
               <span className="font-semibold text-blue-900 hover:opacity-50">
                 História
               </span>
             </a>
-            <a href={`${BASE_URL}quem-foi-damiao/`}>
+            <a href={"/quem-foi-damiao/"}>
               <span className="font-semibold text-blue-900 hover:opacity-50 ">
                 Quem foi Damião
               </span>
