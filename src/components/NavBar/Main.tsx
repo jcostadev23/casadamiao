@@ -1,8 +1,13 @@
+"use client";
+import { usePathname } from "next/navigation";
+
 type Props = {
   onNavBar: boolean;
 };
 
 const MainMenu: React.FC<Props> = ({ onNavBar }) => {
+  const pathName = usePathname();
+
   const className = !onNavBar
     ? "font-semibold text-blue-900 hover:opacity-50 "
     : "px-4";
@@ -13,36 +18,92 @@ const MainMenu: React.FC<Props> = ({ onNavBar }) => {
       }
     >
       <a href={"/casadamiao/"}>
-        <span className={className}>Casa Damião</span>
+        <span
+          className={`${className} ${
+            pathName === "/casadamiao" && "opacity-50"
+          }`}
+        >
+          Casa Damião
+        </span>
       </a>
       <a href={"/quem-somos/"}>
-        <span className={className}>Quem Somos</span>
+        <span
+          className={`${className} ${
+            pathName === "/quem-somos" && "opacity-50"
+          }`}
+        >
+          Quem Somos
+        </span>
       </a>
       <a href={"/visao-missao-e-valores/"}>
-        <span className={className}>Visão, Missão e Valores</span>
+        <span
+          className={`${className} ${
+            pathName === "/visao-missao-e-valores" && "opacity-50"
+          }`}
+        >
+          Visão, Missão e Valores
+        </span>
       </a>
       <a href={"/parceiros/"}>
-        <span className={className}>Parceiros</span>
+        <span
+          className={`${className} ${
+            pathName === "/parceiros" && "opacity-50"
+          }`}
+        >
+          Parceiros
+        </span>
       </a>
       <a href={"/ajudar/"}>
-        <span className={className}>Como Ajudar</span>
+        <span
+          className={`${className} ${pathName === "/ajudar" && "opacity-50"}`}
+        >
+          Como Ajudar
+        </span>
       </a>
       <a href={"/pack-damiao/"}>
-        <span className={className}>Pack Damião</span>
+        <span
+          className={`${className} ${
+            pathName === "/pack-damiao" && "opacity-50"
+          }`}
+        >
+          Pack Damião
+        </span>
       </a>
       <a href={"/documentos-constitutivos/"}>
-        <span className={className}>Documentos Constitutivos</span>
+        <span
+          className={`${className} ${
+            pathName === "/documentos-constitutivos" && "opacity-50"
+          }`}
+        >
+          Documentos Constitutivos
+        </span>
       </a>
       <a href={"/contatos/"}>
-        <span className={className}>Contactos</span>
+        <span
+          className={`${className} ${pathName === "/contatos" && "opacity-50"}`}
+        >
+          Contactos
+        </span>
       </a>
       {onNavBar ? (
         <>
           <a href={"/historia-2/"}>
-            <span className={className}>História</span>
+            <span
+              className={`${className} ${
+                pathName === "/historia-2" && "opacity-50"
+              }`}
+            >
+              História
+            </span>
           </a>
           <a href={"/quem-foi-damiao/"}>
-            <span className={className}>Quem foi Damião</span>
+            <span
+              className={`${className} ${
+                pathName === "/quem-foi-damiao" && "opacity-50"
+              }`}
+            >
+              Quem foi Damião
+            </span>
           </a>
         </>
       ) : (
@@ -50,12 +111,20 @@ const MainMenu: React.FC<Props> = ({ onNavBar }) => {
           <h2 className="text-xl mb-6 font-semibold">A Casa</h2>
           <div className="flex flex-col gap-4">
             <a href={"/historia-2/"}>
-              <span className="font-semibold text-blue-900 hover:opacity-50">
+              <span
+                className={`font-semibold text-blue-900 hover:opacity-50 ${
+                  pathName === "/historia-2" && "opacity-50"
+                }`}
+              >
                 História
               </span>
             </a>
             <a href={"/quem-foi-damiao/"}>
-              <span className="font-semibold text-blue-900 hover:opacity-50 ">
+              <span
+                className={`font-semibold text-blue-900 hover:opacity-50 ${
+                  pathName === "/quem-foi-damiao" && "opacity-50"
+                }`}
+              >
                 Quem foi Damião
               </span>
             </a>
