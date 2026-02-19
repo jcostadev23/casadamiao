@@ -1,9 +1,9 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import SideMenu from "../components/SideMenu";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -42,8 +42,19 @@ export default function RootLayout({
           </div>
         </div>
         <Footer />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-FS3QHZV0EQ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XXXX');
+            `}
+        </Script>
       </body>
-      <GoogleAnalytics gaId="G-FS3QHZV0EQ" />
     </html>
   );
 }
